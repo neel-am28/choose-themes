@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <title>Invoice Generator</title>
+  </head>
+  <body>
+    <div class="invoice-color-container">
+      <span
+        class="green color-selector"
+        data-title="Green"
+        title="Select Color"
+      ></span>
+      <span
+        class="blue color-selector"
+        data-title="Blue"
+        title="Select Color"
+      ></span>
+      <span
+        class="red color-selector"
+        data-title="Red"
+        title="Select Color"
+      ></span>
+      <span
+        class="orange color-selector"
+        data-title="Orange"
+        title="Select Color"
+      ></span>
+      <span
+        class="purple color-selector"
+        data-title="Purple"
+        title="Select Color"
+      ></span>
+    </div>
+    <div class="invoice">
+      <div class="invoice__top">
+        <h2 class="invoice__top-title">Invoice Creator</h2>
+        <p class="invoice__top-para">Thanks for choosing NeelamCorp, LLC!</p>
+      </div>
+      <div class="invoice__bottom">
+        <div class="invoice__bottom-button-container">
+          <button class="invoice-btn">Wash Car: $10</button>
+          <button class="invoice-btn">Mow Lawn: $20</button>
+          <button class="invoice-btn">Pull Weeds: $30</button>
+        </div>
+        <div class="invoice__bottom-task-container">
+          <div class="invoice__bottom-task-left">
+            <h3>TASk</h3>
+            <h4>Wash Car</h4>
+            <h4>Mow Lawn</h4>
+            <h4>Pull Weeds</h4>
+          </div>
+          <div class="invoice__bottom-task-right">
+            <h3>TOTAL</h3>
+            <h4>$10</h4>
+            <h4>$20</h4>
+            <h4>$30</h4>
+          </div>
+        </div>
+        <div class="invoice__bottom-notes-container">
+          <div class="invoice__bottom-notes-left">
+            <h3>NOTES</h3>
+            <p>We accept cash, credit card, or PayPal</p>
+          </div>
+          <div class="invoice__bottom-notes-right">
+            <h3>TOTAL AMOUNT</h3>
+            <h1>$60</h1>
+          </div>
+        </div>
+        <div class="send-invoice-btn">Send Invoice</div>
+      </div>
+    </div>
+  </body>
+</html>
